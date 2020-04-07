@@ -19,4 +19,13 @@ def assign_rooms(array)
   newarray
 end
 
-printer(array)
+def printer(array)
+  newarray = batch_badge_creator(array)
+  newarray.each do |line|
+    puts "#{line}"
+  end
+  newarray2 = assign_rooms(array)
+  newarray2.each do |line|
+    puts "#{line}"
+  end
+end
