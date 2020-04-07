@@ -18,3 +18,5 @@ def assign_rooms(array)
   end
   newarray
 end
+
+printer(array)
